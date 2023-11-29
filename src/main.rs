@@ -1,6 +1,6 @@
 use websocket::client::r#async::Client;
-use discord;
 
+mod discord;
 
 #[async_std::main]
 async fn main() {
